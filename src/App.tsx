@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import we from './assets/images/we.jpeg';
+
+import { Container, OurImage, RootContainer, Title, Subtitle, Description } from './styles';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RootContainer>
+      <Container>
+        <Title>Christian & Pamella</Title>
+        <Subtitle>Site em construção</Subtitle>
+        <OurImage src={we} title="Griss e Pamy" alt="Griss e Pamy <3" />
+
+        <Description>
+          Estamos terminando de desenvolver o site e ajeitando os toques finais. <br />
+          Retorne em breve!
+        </Description>
+      </Container>
+    </RootContainer>
   );
 }
 
