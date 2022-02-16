@@ -37,7 +37,7 @@ export const OurImage = styled.img`
 
 export const Title = styled.h1`
   color: #10538C;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: 'Caveat', cursive;
   margin-bottom: 0;
   font-weight: bold;
